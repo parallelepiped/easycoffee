@@ -1,0 +1,16 @@
+{
+  "name": "EasyCoffee",
+  "version": "0.0.1",
+  "description": "Serve static files via http nice 'n easy with coffeescript",
+  "main": "server.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "coffee server.coffee"
+  },
+  "repository": "",
+  "author": "Owen Martin",
+  "license": "BSD",
+  "dependencies": {
+    "node-static": "~0.6.2"
+  }
+}
